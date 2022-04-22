@@ -12,63 +12,184 @@
     <title>index#4</title>
 </head>
 <body>
-    hello world 
-    wssup br 
-    learnig css
-    <br>sadfs
-    <ul type="circle">
-        <li>first </li>
-        <li>second</li>
-        <ul type="square">
-            <li>second part 2</li>
-        </ul>
-    </ul>
-    <!-- table -->
-    <img src="pubg.jpeg" alt="pubg image" width="190"  >
+    <!-- hello world 
+        wssup br 
+        learnig css
+        <br>sadfs
+        <ul type="circle">
+            <li>first </li>
+            <li>second</li>
+            <ul type="square">
+                <li>second part 2</li>
+            </ul>
+        </ul> -->
+        <!-- table -->
+        <h1 align="center">Practice-Vishal.k</h1>
 
-    <div>
-        <h1 align="center">Truth Table</h1>
-
-    </div>
-
-   <table align=center cellpadding="12" border="1"
-   cellspacing="2">
-
-         <thead bgcolor="brown ">
+        
+   <div class="container" >
+       
+       <!-- table div
+       -->
+       <div>
+           <table cellpadding="12" border="1"  cellspacing="2">
+               
+               <thead bgcolor="brown ">
                 <tr>
                     <th>Name</th>
-                     <th>UID</th>
-                         <th>Branch</th>
+                    <th>UID</th>
+                    <th>Branch</th>
                     <th>Semester</th>
                 </tr>
-         </thead>
-
-         <tbody>
-
-            <tr> 
-                <td>   <center>  <strong>Vishal Kumar Geed  </strong> </center>   <center>  <img src="vishal.jpeg" alt="" width="160"> </center>  </td>
-                <td>21BCS10800</td>
-                <td>CSE</td>
-                <td>2nd</td>
-            </tr>
+            </thead>
             
-            <tr>
-                <td>  <center> <strong>Sudhanshu Gautam</strong>   </center> <img src="sudhanshu.jpeg" alt="" width="160"> </td>
-                <td>21BCS10730</td>
-                <td>CSE</td>
-                <td>2nd</td>
-            </tr>
-
+            <tbody>
+                
+                <tr> 
+                    <td>   <center>  <strong>Vishal Kumar Geed  </strong> </center>   <center>  <img src="vishal.jpeg" alt="" width="160"> </center>  </td>
+                    <td>21BCS10800</td>
+                    <td>CSE</td>
+                    <td>2nd</td>
+                </tr>
+                
+                <tr>
+                    <td>  <center> <strong>Sudhanshu Gautam</strong>   </center> <img src="sudhanshu.jpeg" alt="" width="160"> </td>
+                    <td>21BCS10730</td>
+                    <td>CSE</td>
+                    <td>2nd</td>
+                </tr>
+                
+                
+            </tbody>
             
-         </tbody>
-     
-   </table>
-<br><br><br>
-<form action="backend.php">
-    inp
-
+        </table>
+    </div> 
     
-</form>
+    <!-- 
+        image div
+    -->
+  
+    
+                             <div class="image">
+                                <img src="pubg.jpeg" alt="pubg image" width="190"  >
+                            </div>
+    <!-- <br> 
+        <br> -->
+        <!-- 
+            form div
+        -->
+        <div class="form"  >
+            <div class="info">
+                <h2>Info</h2>
+            </div>
+            <form action="backend.php"  >
+                
+                <!-- nAME -->
+                    <label for="name">Name: </label>
+                   
+                        <input type="text" name="M yname" id="name">
+                    
+                    <br> 
+                    <br>
+            <!-- UID -->
+                    <label for="uid">UID: </label>
+                    
+                        <input type="text" name="UID" id="uid">
+                   
+                        <br>
+                        <br>
+                <!-- BRANCH -->
+                        <label for="branch">
+                            Branch: <input type="text" name="Branch" id="branch">
+                        </label>
+        <!-- gender -->
+                    <br>
+                    <br>
+                   
+                        <label for="gender" align="left">  
+                            Gender: 
+                            
+                            <input type="radio" name="Gender" id="gender">Male   <input type="radio" name="Gender" id="gender">Female 
+                        </label>
+
+                    <br><br>
+
+            <!-- year -->
+
+            <label for="year">
+                Year: <input type="number" name="year" id="year">
+            </label>
+
+            <br><br>
+
+            <!-- Date OF Birth-->
+
+            <label for="dob">
+                Date Of Birth: <input type="date" name="dob" id="dob" >
+            </label>
+            <br><br>
+
+            <!-- Github Link -->
+
+            <label for="github">
+                Github/Linkedin link: <br>
+                <input type="url" name="github" id="github">
+            </label>
+            <br><br>
+
+            <!-- email -->
+            <label for="email">
+                Email: <input type="email" name="email" id="email">
+            </label>
+
+            <!-- check box-->
+            <br>
+            <label for="info">
+                <input type="checkbox" name="info" id="info" checked> Get notified for our future <em>Updates</em>
+            </label>
+               
+            <!-- select -->
+            <br><br>
+            <label for="select">
+                Mode Preference: <select name="Mode" id="select"> 
+                    <option value="Online" selected> Online</option>
+                    <option value="Offline"> Offline</option>
+                    <option value="Not Decided" > Not Decided</option>
+                </select>
+            </label>
+
+<!-- avator -->
+<br><br>
+
+            <label for="avator">
+                Upload Profile Pic: <input type="file" name="Avator" id="avator">
+            
+            </label>
+
+            <br> <br>
+            <label for="suggestion">
+                Any suggestion: <br>
+                <textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea>
+            </label>
+
+             <!-- submit -->
+             <br>
+             <br>
+
+             <label for="submit">
+                 <input type="submit" value="SUBMIT"> OR  <input type="reset" value="Reset">
+             </label>
+             
+             <br><h3>Thank You</h3>
+
+                </form>
+            </div>
+    
+   </div>
+    
+  
+<br>
+<br>
    <!-- 
        <img src="deer.jpg" alt="deer image" height="500"  >
      -->
